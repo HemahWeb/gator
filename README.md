@@ -42,10 +42,6 @@ Create a `.env` file in your project directory:
 ```bash
 # Database Configuration
 DB_URL=postgres://username:password@localhost:5432/gator_db?sslmode=disable
-
-# Optional: Customize other settings
-# LOG_LEVEL=info
-# PORT=8080
 ```
 
 ### 2. Set Up Database
@@ -187,28 +183,5 @@ The application uses PostgreSQL with the following main tables:
 3. Commit your changes (`git commit -m 'Add amazing feature'`)
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Support
-
-If you encounter any issues or have questions:
-
-1. Check the [Issues](https://github.com/HemahWeb/gator/issues) page
-2. Create a new issue with detailed information
-3. Include your Go version, PostgreSQL version, and error messages
-
-## Roadmap
-
-- [ ] Web interface for feed management
-- [ ] Email notifications for new posts
-- [ ] Feed categorization and tags
-- [ ] Export/import feed lists
-- [ ] Mobile app companion
-- [ ] Advanced search and filtering
-
----
 
 **Happy RSS aggregating! 🚀**
